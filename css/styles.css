@@ -646,7 +646,7 @@ body {
 
 .section-list.works .item:hover .text,
 .section-list.works .item:focus .text {
-  bottom: 0px;
+  transform: translateY(-100%);
 }
 
 .section-list.works .item:hover .card-image::before,
@@ -684,7 +684,7 @@ body {
   display: block;
   padding: 63px 24px;
   margin: 0px;
-  bottom: -100%;
+  /* transform: translateY(0); */
 
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 
